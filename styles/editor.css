@@ -5,7 +5,7 @@
   height: 3em;
   padding: 1em 1.5em 2em 1.5em;
   border-bottom: 1px solid rgba(0,0,0,.05);
-  background: #E3E3DE;
+  background: #fff5ee;
 }
 
 .editor .title-form input {
@@ -14,7 +14,7 @@
   width: calc(100% - 10em);
   box-shadow: none;
   border-radius: 0;
-  border: 1px solid #EDC5E8;
+  border: 1px solid #ff928c;
   background: none;
 }
 
@@ -23,8 +23,8 @@
 .editor .title-form input:focus { border: 1px solid #89D470; }
 
 .title-pane .delete-button {
-  color: #303330;
-  background: #EDC5E8;
+  color: #131413;
+  background: #ff928c;
   font-size: 1.4em;
   font-weight: 700;
   float: right;

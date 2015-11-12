@@ -23,13 +23,13 @@
 }
 
 .page h1 {
-  color: #222;
+  color: #131413;
   padding: 0 0 .4em;
-  border-bottom: 1px solid #EDC5E8;
+  border-bottom: 1px solid #ff928c;
 }
 
 .page h3 {
-  color: #222;
+  color: #131413;
   font-weight: normal;
 }
 
@@ -39,19 +39,19 @@
 
 .page p {
   font-size: 1.4em;
-  color: #303330;
+  color: #131413;
 }
 
 .page pre {
   font-size: 1.2em;
-  background: #E3E3DE;
+  background: #fff5ee;
   padding: .4em .2em;
   border-radius: 2px;
 }
 
 .page code {
   color: #45573b;
-  background: #E3E3DE;
+  background: #fff5ee;
   padding: 2px .2em;
   border-radius: 2px;
 }
