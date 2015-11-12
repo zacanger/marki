@@ -13,42 +13,41 @@
     "angular",
     "realtime",
     "editor",
-		"themes",
-		"keybinds",
-		"vim",
-		"vi"
+    "themes",
+    "keybinds",
+    "vim",
+    "vi"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zacanger/markvi.git"
   },
   "license": "WTFPL",
-	"dependencies": {
+  "dependencies": {
     "bower": "^1.6.5",
     "shelljs": "^0.5.3",
-		"live-server": "^0.8.2"
-	},
+    "live-server": "^0.8.2"
+  },
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-cli": "^0.3.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-uglify": "^1.4.2",
-    "xo": "^0.10.1",
-		"semistandard-format": "^1.6.7"
+    "xo": "^0.10.1"
   },
   "scripts": {
-		"postinstall": "bower install && gulp",
-		"start": "live-server --port=4444",
+    "postinstall": "bower install && gulp",
+    "start": "live-server --port=4444",
     "test": "xo"
   },
   "xo": {
     "semicolon": false,
     "space": true,
-		"esnext": true,
-		"envs": [
-			"node",
-			"browser"
-		]
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
   }
 }
