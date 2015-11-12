@@ -34,15 +34,21 @@
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-uglify": "^1.4.2",
-    "xo": "^0.10.1"
+    "xo": "^0.10.1",
+		"semistandard-format": "^1.6.7"
   },
   "scripts": {
-    "postinstall": "bower install && gulp",
+		"postinstall": "bower install && gulp",
 		"start": "live-server --port=4444",
     "test": "xo"
   },
   "xo": {
     "semicolon": false,
-    "space": true
+    "space": true,
+		"esnext": true,
+		"envs": [
+			"node",
+			"browser"
+		]
   }
 }
