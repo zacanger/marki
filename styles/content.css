@@ -20,12 +20,13 @@
 .page-inner {
   max-width: 840px;
   margin: 0 auto;
+  background: #fff5ee;
 }
 
 .page h1 {
   color: #131413;
   padding: 0 0 .4em;
-  border-bottom: 1px solid #ff928c;
+  border-bottom: 1px solid #f0bcc2;
 }
 
 .page h3 {
