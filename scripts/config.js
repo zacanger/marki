@@ -4,7 +4,7 @@ angular.module('markvi')
 
   .config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locationProvider) {
     $locationProvider.html5Mode({
-      enabled: true,
+      enabled: false,
       requireBase: false
     })
 
@@ -18,10 +18,11 @@ angular.module('markvi')
       controller: 'MainCtrl'
     }).state('about', {
       url: '/about',
-      templateUrl: '/views/about.html'
+      templateUrl: '/views/about.html',
+      controller: 'AboutCtrl'
     })
     $urlRouterProvider
-      .otherwise('/')
+			.otherwise('/')
   })
 
   .run(function ($rootScope) {
