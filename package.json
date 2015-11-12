@@ -1,42 +1,44 @@
 {
   "name": "markvi",
   "private": false,
-  "version": "0.1.5",
+  "version": "0.1.7",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
     "url": "http://zacanger.com"
   },
-  "description": "Markdown editor in Angular",
+  "description": "Markdown editor in Angular, with themes and keybinds.",
   "keywords": [
     "markdown",
     "angular",
     "realtime",
     "editor",
-    "vi",
-    "vim"
+		"themes",
+		"keybinds",
+		"vim",
+		"vi"
   ],
-  "demo": "http://zacanger.com/markvi",
   "repository": {
     "type": "git",
     "url": "https://github.com/zacanger/markvi.git"
   },
   "license": "WTFPL",
-  "dependencies": {},
-  "devDependencies": {
+	"dependencies": {
     "bower": "^1.6.5",
+    "shelljs": "^0.5.3",
+		"live-server": "^0.8.2"
+	},
+  "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-cli": "^0.3.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-uglify": "^1.4.2",
-    "live-server": "^0.8.2",
-    "shelljs": "^0.5.3",
     "xo": "^0.10.1"
   },
   "scripts": {
-    "postinstall": "bower install",
-    "start": "live-server --port=4444",
+    "postinstall": "bower install && gulp",
+		"start": "live-server --port=4444",
     "test": "xo"
   },
   "xo": {
