@@ -38,9 +38,10 @@
     "xo": "^0.10.1"
   },
   "scripts": {
-    "postinstall": "bower install && gulp",
+    "postinstall": "bower install",
     "start": "live-server --port=4444",
-    "test": "xo"
+    "test": "xo",
+    "gulp": "gulp"
   },
   "xo": {
     "semicolon": false,
