@@ -12,5 +12,6 @@ plans:
 * desktop client (electron-test branch)
 * general shrinkage
 * actually doing that 'beautiful' bit
+* debowerification
 
 
