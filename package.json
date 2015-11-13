@@ -1,7 +1,7 @@
 {
   "name": "markvi",
   "private": false,
-  "version": "0.2.0",
+  "version": "0.2.2",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
@@ -25,8 +25,9 @@
   "license": "WTFPL",
   "dependencies": {
     "bower": "^1.6.5",
-    "shelljs": "^0.5.3",
-    "live-server": "^0.8.2"
+    "caps-lock": "0.0.4",
+    "live-server": "^0.8.2",
+    "shelljs": "^0.5.3"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

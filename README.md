@@ -1,11 +1,16 @@
-a simple, beautiful markdown editor with a realtime preview pane  
+[![NPM](https://nodei.co/npm/markvi.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/markvi/)
+
+simple markdown editor in angular with realtime preview
 based on codemirror  
 using the always-fantastic marked parser by @chjj  
 
 plans:
-* rewrite parser (markdown-extra-ish, far future)
+* rewrite parser (markdown-extra-ish, future)
 * actually implement the vi-like keybinds (see scripts/vi.js)
-* eventual rewrite in coffeescript, jade, and stylus
+* eventual rewrite to hide from all that angular
 * integrate with my rough attempt at a blog platform
-* desktop client (electron/photon, or BAT)
+* desktop client (electron-test branch)
+* general shrinkage
+* actually doing that 'beautiful' bit
+
 
