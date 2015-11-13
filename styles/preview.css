@@ -1,6 +1,6 @@
 .preview {
   font-family: "Merriweather", "Gentium Book", "Garamond", serif;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1.2;
   padding: .4em .8em .4em 6em;
   background-color: #fff5ee;
@@ -75,26 +75,26 @@
   font-size: inherit;
 }
 .preview h1 {
-  font-size: 2.8em;
+  font-size: 3.0em;
   color: #262b26;
   border-bottom: 1px solid #f0bcc2;
 }
 .preview h2 {
-  font-size: 2.4em;
+  font-size: 2.6em;
   color: #262b26;
   border-bottom: 1px solid #f0bcc2;
 }
 .preview h3 {
-  font-size: 1.8em;
+  font-size: 2.2em;
 }
 .preview h4 {
-  font-size: 1.2em;
+  font-size: 1.8em;
 }
 .preview h5 {
-  font-size: 1.0em;
+  font-size: 1.6em;
 }
 .preview h6 {
-  font-size: .8em;
+  font-size: 1.4em;
 }
 .preview p, .preview blockquote, .preview ul, .preview ol, .preview dl, .preview li, .preview table, .preview pre {
   margin: 1.2em;

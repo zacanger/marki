@@ -26,7 +26,7 @@ gulp.task('minjs', function(){
 //});
 
 watcher.on('change', function(event){
-	console.log('heyo, ur ' + event.patch + ' be all ' + event.type + ' at ' + new Date() + '... so i gon run dem tasks fuh you.');
+	console.log('Greetings, master. Your ' + event.path + ' was ' + event.type + ' at ' + new Date() + '. I shall run your tasks.');
 });
 
 gulp.task('default', ['minjs']);
