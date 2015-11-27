@@ -17,7 +17,8 @@ angular.module('markvi')
           matchBrackets: true,
           lineWrapping: true,
           placeholder: '…',
-          theme: 'xq-dark'
+          theme: 'xq-dark',
+          keyMap: 'vim'
         })
 
         if ($attr.file) {

@@ -1,5 +1,0 @@
-$('#master').on('scroll', function(){
-  $('#slave').scrollTop($(this).scrollTop())
-})
-
-
