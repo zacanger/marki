@@ -3,15 +3,13 @@
 simple markdown editor in angular with realtime preview
 based on codemirror  
 using the always-fantastic marked parser by @chjj  
+oh, and it's got vi keybinds.
 
 plans:
-* rewrite parser (markdown-extra-ish, future)
-* actually implement the vi-like keybinds (see scripts/vi.js)
-* eventual rewrite to hide from all that angular
-* integrate with my rough attempt at a blog platform
+* rewritten parser
+* nix angular, redo in vue
 * desktop client (electron-test branch)
-* general shrinkage
-* actually doing that 'beautiful' bit
+* make it not look like this
 * debowerification
-
+* regulpification
 
