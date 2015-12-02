@@ -20,11 +20,11 @@
 .page-inner {
   max-width: 840px;
   margin: 0 auto;
-  background: #fff5ee;
+  background: #131413;
 }
 
 .page h1 {
-  color: #131413;
+  color: #f6f4d5;
   padding: 0 0 .4em;
   border-bottom: 1px solid #f0bcc2;
 }
@@ -40,25 +40,25 @@
 
 .page p {
   font-size: 1.4em;
-  color: #131413;
+  color: #f6f4d5;
 }
 
 .page pre {
   font-size: 1.2em;
-  background: #fff5ee;
+  background: #131413;
   padding: .4em .2em;
   border-radius: 2px;
 }
 
 .page code {
-  color: #45573b;
-  background: #fff5ee;
+  color: #abcdef;
+  background: #0f0f0f;
   padding: 2px .2em;
   border-radius: 2px;
 }
 
 .page pre code {
-  color: #45573b;
+  color: #abcdef;
   background: none;
 }
 

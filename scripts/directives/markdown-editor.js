@@ -17,7 +17,7 @@ angular.module('markvi')
           matchBrackets: true,
           lineWrapping: true,
           placeholder: '…',
-          theme: 'xq-dark',
+          theme: 'abcdef',
           keyMap: 'vim'
         })
 

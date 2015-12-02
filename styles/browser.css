@@ -7,7 +7,7 @@
   width: 10%;
   overflow-x: hidden;
   overflow-y: hidden;
-  color: #fff5ee;
+  color: #f6f4d5;
   background: #131413;
   box-shadow: inset -2px 1px 4px rgba(0,0,0,.8);
   -webkit-overflow-scrolling: touch;
@@ -27,7 +27,7 @@
 
 .browser .file .title {
   display: block;
-  color: #fff5ee;
+  color: #f6f4d5;
   font-size: 14px;
   font-weight: bold;
 }

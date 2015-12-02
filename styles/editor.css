@@ -5,7 +5,7 @@
   height: 3em;
   padding: 1em 1.5em 2em 1.5em;
   border-bottom: 1px solid rgba(0,0,0,.05);
-  background: #fff5ee;
+  background: #131413;
 }
 
 .editor .title-form input {
@@ -16,6 +16,7 @@
   border-radius: 0;
   border: 1px solid #f0bcc2;
   background: none;
+	color: #f6f4d5;
 }
 
 .editor .title-form input:hover { border: 1px solid #aed0b1; }

@@ -9,7 +9,6 @@ plans:
 * rewritten parser
 * nix angular, redo in vue
 * desktop client (electron-test branch)
-* make it not look like this
-* debowerification
-* regulpification
+* mongo-based (internal) shared writing platform (think tumblr for people with attention spans, or medium if twitter hadn't been involved)
+* reorg, gulpify, debowerificate, &c. (see branch next-restructure)
 
