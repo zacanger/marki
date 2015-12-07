@@ -33,7 +33,6 @@
     "xo": "^0.10.1"
   },
   "scripts": {
-    "postinstall": "bower install",
     "start": "live-server --port=4444",
     "test": "xo"
   },

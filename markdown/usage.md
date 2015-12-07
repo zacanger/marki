@@ -52,19 +52,17 @@ These are the tiniest bit of the barest basics, but used in combination these ke
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/), the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/), or the [Markdown-Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+# H1: the Basics.
 
 _Emphasis_ (*italics*).
 __Strong__ (**bold**).
 **Combined _emphasis and strong_**
 __Combined emphasis and *strong*__
 ~~We done did this task, aww yiss.~~
+
+> Once upon a time a thing happened.
+> It was pretty swell.
+> Blockquotes are nifty.
 
 1. First ordered list item
 2. Another item
@@ -77,8 +75,20 @@ __Combined emphasis and *strong*__
 - Or minuses
 + Or pluses
 
+Horizontal rules can be hyphens,
 
-###### Links
+----
+
+or asterisks,
+
+****
+
+or underscores.
+
+____
+
+
+## H2: Links
 
 [I'm an inline-style link](https://www.google.com)
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
@@ -87,21 +97,49 @@ __Combined emphasis and *strong*__
 
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
 
-###### Code and Syntax Highlighting
+
+### H3: Code, Syntax Highlighting
 
 Inline `code` only needs one backtick (grave accent); blocks of code take three:
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+const max = process.argv[2]
+let FizzBuzz = function* (){
+  let num = 1
+  while (num <= max){
+    let value = num
+    num++
+    if (value % 15 === 0) {
+      value = 'FizzBuzz'
+    } else if (value % 3 === 0) {
+      value = 'Fizz'
+    } else if (value % 5 === 0) {
+      value = 'Buzz'
+    }
+    yield value
+  }
+}()
+
+for (var n of FizzBuzz){
+  console.log(n)
 ```
 
 ```python
-s = "Python syntax highlighting"
-print s
+def fizz_buzz(num):
+    if num % 15 == 0:
+        print("FizzBuzz")
+    elif num % 5 == 0:
+        print("Buzz")
+    elif num % 3 == 0:
+        print("Fizz")
+    else:
+        print(num)
+
+for i in range(1, 101):
+    fizz_buzz(i)
 ```
 
-###### Tables
+#### H4: Tables
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -109,27 +147,19 @@ print s
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-###### Blockquotes
 
-> Once upon a time a thing happened.
-> It was pretty swell.
+##### H5: Images
 
-###### Horizontal Rule
+Small images are shown at size.
 
----
+![](https://www.placecage.com/gif/300/500)
 
-Hyphens
+Large images are scaled to fit.
 
-***
-
-Asterisks
-
-___
-
-Underscores
+![](http://placekitten.com/g/1200/800/)
 
 
-###### Line Breaks
+###### H6: Line Breaks.
 
 Here's a line for us to start with.
 
@@ -140,4 +170,4 @@ This line is only separated by a single newline, so it's a separate line in the 
 
 Traditional markdown needs two spaces at the end of a line to start a newline (like so: `  `).
 
-To switch back to that method, simply set `breaks` to `false` in the options near the bottom of `scripts/markdown.js`
+We find that a bit hard to remember.
