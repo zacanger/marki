@@ -1,7 +1,7 @@
 {
   "name": "markvi",
   "private": false,
-  "version": "0.5.0",
+  "version": "0.6.0",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
@@ -25,21 +25,19 @@
   "license": "WTFPL",
   "dependencies": {
     "bower": "^1.6.5",
-    "caps-lock": "0.0.4",
-    "live-server": "^0.8.2",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
     "shelljs": "^0.5.3"
   },
-  "devDependencies": {
-    "xo": "^0.10.1"
-  },
+  "devDependencies": {},
   "scripts": {
-    "start": "live-server --port=4444",
+    "postinstall": "bower install",
+    "start": "gulp",
     "test": "xo"
   },
   "xo": {
     "semicolon": false,
     "space": true,
-    "esnext": true,
     "envs": [
       "node",
       "browser"
