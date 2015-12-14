@@ -1,7 +1,7 @@
 .preview {
   font-family: "Merriweather", "Gentium Book", "Garamond", serif;
   font-size: 1.2em;
-  line-height: 1.2;
+  line-height: 1.4;
   padding: .4em .8em .4em 6em;
   background-color: #131413;
   color: #f6f4d5;
@@ -309,7 +309,7 @@
   background-color: #303030;
   border: 1px solid #0a0a0a;
   font-size: 1.2em;
-  line-height: 1.0;
+  line-height: 1.2;
   overflow: auto;
   padding: .4em .8em;
   border-radius: 2px;
@@ -318,7 +318,7 @@
   background-color: #181818;
   border: 1px solid #0a0a0a;
   font-size: 1.0em;
-  line-height: 19px;
+  line-height: 1.2em;
   overflow: auto;
   padding: .4em .8em;
   border-radius: 2px;
