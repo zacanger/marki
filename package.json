@@ -7,7 +7,7 @@
     "email": "zac@zacanger.com",
     "url": "http://zacanger.com"
   },
-  "description": "Markdown editor in Angular, with themes and keybinds.",
+  "description": "DEPRECATED--Markdown editor in Angular, with themes and keybinds.",
   "keywords": [
     "markdown",
     "angular",
