@@ -6,18 +6,17 @@ var gulp      = require('gulp')
   , uglifycss = require('gulp-uglifycss')
   , annotate  = require('gulp-ng-annotate')
   , tasklist  = require('gulp-task-listing')
+  , port      = process.argv[2] || 6666
 
 gulp.task('serve', function(){
   connect.server({
-    livereload : true
-  , port       : 4444
-  , root       : '.'
+    port       : port
+  , root       : './public'
   })
 })
 
-
 gulp.task('js', function(){
-  .src('./**/*.js')
+  gulp.src('./src/**/*.js')
   .pipe(annotate())
   .pipe(uglify())
   .pipe(concat('js.min.js'))
@@ -25,22 +24,13 @@ gulp.task('js', function(){
 })
 
 gulp.task('css', function(){
-  .src('./**/*.css')
+ gulp.src('./src/**/*.css')
   .pipe(uglifycss())
   .pipe(concat('css.min.css'))
   .pipe(gulp.dest('./public'))
 })
 
-gulp.task('serve', function(){
-  connect.server({
-    livereload: true
-  , root: '.'
-  , port: 4444
-  })
-})
+gulp.task('help', tasklist)
 
-gulp.task('reload', function(){
-  gulp.src('./public/**')
-  .pipe(connect.reload())
-})
+gulp.task('default', ['js', 'css', 'serve'])
 

@@ -1,0 +1,29 @@
+<div class="editor">
+
+  <div class="title-pane">
+    <form class="pure-form title-form">
+      <input
+        class="title"
+        type="text"
+        ng-model="title"
+        placeholder="title"
+        maxlength="50"
+      >
+      <button
+        ng-click="delete()"
+        class="pure-button delete-button">
+        delete
+      </button>
+    </form>
+  </div>
+
+  <div id="master" class="editor-pane">
+    <textarea class="codemirror" id="editor"></textarea>
+  </div>
+
+  <div id="slave" class="preview-pane">
+    <div class="preview"></div>
+  </div>
+
+</div>
+

@@ -6,7 +6,7 @@ angular.module('markvi')
   return {
     restrict    : 'E'
   , transclude  : true
-  , templateUrl : './scripts/directives/md.html'
+  , templateUrl : './views/md.html'
   , replace     : true
   , link        : function ($scope, $elem, $attr) {
       var editorEl  = angular.element(document.querySelector('.codemirror'))
