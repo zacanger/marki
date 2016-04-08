@@ -29,6 +29,7 @@ angular.module('markvi')
           $scope.editor.setValue(file.content)
         }
       }
+
       $scope.$watch('title', function (val) {
         if (val) {
           $scope.update()
@@ -48,9 +49,11 @@ angular.module('markvi')
         , content : content
         })
       }
+
       $scope.delete = function () {
         $rootScope.$broadcast('file:delete')
       }
+
       $scope.setOutput = function (val) {
         var preview = angular.element(document.querySelector('.preview'))
         preview.html(marked(val))
@@ -58,4 +61,3 @@ angular.module('markvi')
     }
   }
 })
-

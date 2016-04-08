@@ -1,7 +1,6 @@
 {
   "name": "markvi",
-  "private": false,
-  "version": "0.8.0",
+  "version": "0.8.5",
   "author": {
     "name": "Zac Anger",
     "email": "zac@zacanger.com",
@@ -11,7 +10,6 @@
   "keywords": [
     "markdown",
     "angular",
-    "realtime",
     "editor",
     "themes",
     "keybinds",
@@ -24,7 +22,7 @@
   },
   "license": "WTFPL",
   "dependencies": {
-    "luvi": "^0.7.2"
+    "luvi": "^0.9.0"
   },
   "devDependencies": {
     "bower": "^1.7.7"
@@ -34,4 +32,3 @@
     "start": "luvi"
   }
 }
-
